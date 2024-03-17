@@ -85,7 +85,7 @@ a{
         width: 60%;
         flex-wrap: wrap;
         flex-direction: column;
-        margin-right: -100px;
+        margin-right: -60px;
         
     
     }
@@ -94,6 +94,7 @@ a{
     }
     .content{
         width: 100%;
+        overflow: hidden;
     }
   
 
