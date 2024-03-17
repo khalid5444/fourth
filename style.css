@@ -11,8 +11,9 @@ body{
 .container{
     width: 90%;
     background-image: linear-gradient(to right,#01022d8a,#00000078) , url(3XopdGAJGRy3xNQKnQDvaCRs.webp);
-    height: 500px; 
+    height: 90%; 
     border-radius: 10px;
+    position: relative;
 }
 .container:hover{
     background-image: linear-gradient(to right,#01022d8a,transparent) , url(3XopdGAJGRy3xNQKnQDvaCRs.webp);
@@ -52,8 +53,9 @@ a{
  .content{
     
     width: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 30px;
+    
  }
  h2{
     text-transform: uppercase;
@@ -66,8 +68,34 @@ a{
     letter-spacing: 3px;
     padding: 10px 0;
  }
- button{
+ .button{
     color: #000;
    font-size: 20px;
    padding: 5px;
+   background-color: aliceblue;
+   
+ }
+ @media (max-width:735px) {
+    ul{
+        display: flex;
+       justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+        width: 60%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-right: -100px;
+        
+    
+    }
+    .container{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+  
+
+  
  }
